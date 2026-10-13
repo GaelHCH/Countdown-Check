@@ -7,8 +7,8 @@ body { /*Apply these rules to the <body> section in the html file*/
     justify-content: center; /*Aligns every element to the center-HORIZONTAL*/
     gap: 70px; /*Adds a gap between each element of 70 pixels*/
     font-family: papyrus;
-    background: linear-gradient(135deg, #1e1b4b, #4c1d95);
-    color: white; /*Sets the text color*/
+    background: linear-gradient(135deg, #b25217, #4c1d95);
+    color: rgb(221, 237, 47); /*Sets the text color*/
 }
 
 h1 {
@@ -19,9 +19,10 @@ h1 {
 
 input {
     font-size: 1.5rem;
+    font-family: papyrus;
     padding: 12px 16px;
     width: 200px; /*Changes the input width directly*/
-    border: 2px solid #8b5cf6;
+    border: 2px solid #d2900b;
     border-radius: 12px;
     background: rgba(255, 255, 255, 0.1);
     color: white;
@@ -44,16 +45,17 @@ button {
     padding: 12px 24px; /*Setting the space between the button text and the button edges*/
     border: none; /*Browsers give buttons a default gray border, this removes it*/
     border-radius: 999px; /*Rounds the corners. Any huge number makes the ends fully round. 8px for softly round. 0 for sharp*/
-    background: #8b5cf6;
+    background: #c63c05;
     color: white; /*button text color*/
     font-size: 1rem; /*Button text size*/
+    font-family: papyrus;
     cursor: pointer; /*Changes the cursor when hovering over the button to the hand*/
     transition: transform 0.15s, box-shadow 0.15s; /*Needed to make button animations and effects smooth*/
 }
 
 button:hover { /*Adds a nice animation when hovering*/
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
+    box-shadow: 0 6px 20px rgba(223, 170, 47, 0.5);
 }
 
 button:active { /*Adds a nice animation when clicking*/
