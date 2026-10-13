@@ -31,6 +31,13 @@ document.getElementById("check").addEventListener("click", () => {
     //Adding sound
     clickSound.currentTime = 0;
     clickSound.play();
+    //Adding confetti effect
+    confetti({
+      particleCount: 100,
+      spread: 170,
+      scalar: 2,
+      origin: {y: 0.6}
+    });
     save();
     render();
   }
